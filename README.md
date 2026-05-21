@@ -26,6 +26,6 @@ El flux de treball està organitzat com un bucle operatiu interactiu:
 
 ### Estructura del repositori 
 - `UR3.py`: Codi de control principal en Python que gestiona la connexió per socket, el càlcul de trajectòries articulars, la tria aleatòria i la lògica de classificació interactiva.
-- `pinza10UR3.py`: Script URScript de baix nivell enviat al robot per tancar la pinça a una configuració de subjecció forta de 10 mm.
+- `pinza10UR3.py`: Script URScript de baix nivell enviat al robot per tancar la pinça a una configuració de subjecció de 10 mm.
 - `pinza40UR3.py`: Script URScript de baix nivell enviat al robot per obrir la pinça a una configuració d'alliberament de 40 mm.
-- `P11 - VC.mlx`: Live Script de MATLAB utilitzat per al modelatge matemàtic previ.
+- `P11 - VC.mlx`: Script de MATLAB utilitzat per al modelatge matemàtic previ.
